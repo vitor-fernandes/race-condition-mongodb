@@ -17,7 +17,7 @@ Race conditions can occur especially in logic circuits, multithreaded or distrib
 You need to have NodeJS, NPM and MongoDB (docker works too :p) installed on your machine
 1. clone this rep (git clone https://github.com/vitor-fernandes/race-condition-mongodb)
 2. go to directory (cd race-condition-mongodb)
-3. install the modules used by app (npm start)
+3. install the modules used by app (npm install)
 4. execute the server (node vulnerable.js or node notVulnerable.js)
 5. exploit the vulnerability (python exploit.py YOUR_IP EMAIL PASSWORD)
 
